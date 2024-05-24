@@ -1,3 +1,4 @@
+
 NGanados = int(input("Nro. de partidos ganados"))
 
 NPerdidos = int(input("Nro. de partidos perdidos"))
