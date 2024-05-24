@@ -7,4 +7,4 @@ nota5 = float(input("Ingrese Nota 5: "))
 
 promedio = (nota1 + nota2 + nota3 + nota4 + nota5)/5
 
-print("Tu promedio es: ", promedio)
+print("Tu promedio es: ",promedio)
