@@ -1,3 +1,8 @@
+''' 
+1. Datos
+Nota_Materia -> float
+Promedio -> float
+2. ResultadoPromedio  = (Nota_Materia1 + Nota_Materia2 + Nota_Materia3 + Nota_Materia4 + Nota_Materia5)/5 -> float '''
 
 nota1 = float(input("Ingrese Nota 1: "))
 nota2 = float(input("Ingrese Nota 2: "))
