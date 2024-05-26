@@ -1,16 +1,23 @@
+'''Pedir al usuario que ingrese 10 nombres de personas (input en un ciclo)
+ no repetidas, guardarlos en una lista y mostrarlos'''
 
+'''
+i = "Fin"
+lista = []
 
-
-
-
-usuarios = "Fin"
-
-usuarios = input("Ingrese nombre de usuario. Ingrese Fin si desea terminar. ")
-
-while usuarios != "Fin":
-    usuarios = input("Ingrese nombre de usuario. Ingrese Fin si desea terminar ")
+while i != "Fin":
+    i = input("Igrese nombre de usuario. Ingrese Fin si desea terminar ")
+    lista.append(i)
 
 # como crear una lista con los usuarios ingresados?
+print(lista)'''
 
-list = []
-print(list)
+lista = []
+
+while True:
+    i = input("Ingrese nombre de usuario. Ingrese 'Fin' si desea terminar: ")
+    if i == "fin":
+        break
+    lista.append(i)
+
+print("Lista de usuarios ingresados:", lista)
