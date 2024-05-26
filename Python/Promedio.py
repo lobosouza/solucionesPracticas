@@ -1,4 +1,5 @@
-''' 
+'''
+Realizar el promedio de notas de 5 materias
 1. Datos
 Nota_Materia -> float
 Promedio -> float
