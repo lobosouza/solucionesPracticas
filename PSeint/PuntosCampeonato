@@ -1,1 +1,16 @@
-
+Algoritmo PuntosCampeonato
+	Definir NGanados Como Entero
+	Definir NPerdidos Como Entero
+	Definir NEmpatados Como Entero
+	Definir PuntosTotales Como Entero
+	
+	Escribir Ingrese número de partidos ganados
+	Leer NGanados
+	Escribir Ingrese número de partidos perdidos
+	Leer NPerdidos
+	Escribir Ingrese número de partidos empatados
+	Leer NEmpatados
+	
+	PuntosTotales <- (NGanados*3) + (NEmpatados*1) + (NPerdidos*0)
+	Escribir "Los puntos totales de tu equipo en el campeonato es: ", PuntosTotales 
+FinAlgoritmo
