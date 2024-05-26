@@ -32,7 +32,7 @@ if Unidades < 12:
     else:
         MontoTotal = MontoParcial
     
-elif Unidades >=12:
+elif Unidades >=12 and Unidades <24:
     if Jubilado == 1:
         MontoTotal = MontoParcial-(MontoParcial*0.2)
     else:
