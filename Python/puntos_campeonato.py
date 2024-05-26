@@ -1,3 +1,13 @@
+''' 
+Realizar el total de puntos obtenidos en un campeonato
+N = Numero de partidos 
+Puntos_Totales -> int
+NGanados = partidos ganados -> int
+NPerdidos = partidos perdidos -> int
+NEmpatados = partidos empatados -> int
+
+Resultados
+PuntosTotales -> int '''
 
 NGanados = int(input("Nro. de partidos ganados"))
 
