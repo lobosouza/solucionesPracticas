@@ -32,3 +32,8 @@ while True:
         break
     lista.append(valor)
 print("lista de usarios ingresados", lista)
+
+del lista[3]
+lista.pop()
+lista.sort()
+print(lista)
