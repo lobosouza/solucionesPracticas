@@ -33,6 +33,8 @@ while True:
     lista.append(valor)
 print("lista de usarios ingresados", lista)
 
+# Eliminar la tercer y la última persona de la lista del ejercicio 1, luego ordenar la lista y mostrarlo
+
 del lista[3]
 lista.pop()
 lista.sort()
